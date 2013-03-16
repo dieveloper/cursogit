@@ -10,5 +10,7 @@
 
 @interface DPLAlumno : NSObject
 
+@property (nonatomic, strong)   NSString *nombre;
 @property (nonatomic, assign)   BOOL esRegistered;
+
 @end

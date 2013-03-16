@@ -17,4 +17,6 @@
 @property (nonatomic, assign)   BOOL esRegistered;
 @property (nonatomic, assign)   BOOL email;
 
+- (NSDictionary *)   eventos;
+
 @end

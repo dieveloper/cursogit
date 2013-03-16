@@ -10,4 +10,5 @@
 
 @interface DPLAlumno : NSObject
 
+@property (nonatomic, assign)   BOOL esRegistered;
 @end

@@ -12,5 +12,6 @@
 
 @property (nonatomic, strong) NSDate *fecha;
 @property (nonatomic, strong) NSString *nombre;
+@property (nonatomic, strong) NSString *hora;
 
 @end

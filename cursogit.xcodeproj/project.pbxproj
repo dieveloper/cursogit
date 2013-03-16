@@ -19,6 +19,7 @@
 		F12D1D0F16F4772A00D3138C /* DPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D1D0E16F4772A00D3138C /* DPLViewController.m */; };
 		F12D1D1216F4772A00D3138C /* DPLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12D1D1016F4772A00D3138C /* DPLViewController_iPhone.xib */; };
 		F12D1D1516F4772A00D3138C /* DPLViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12D1D1316F4772A00D3138C /* DPLViewController_iPad.xib */; };
+		F12D1D1C16F47B9F00D3138C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F12D1D1B16F47B9F00D3138C /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		F12D1D0E16F4772A00D3138C /* DPLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPLViewController.m; sourceTree = "<group>"; };
 		F12D1D1116F4772A00D3138C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DPLViewController_iPhone.xib; sourceTree = "<group>"; };
 		F12D1D1416F4772A00D3138C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DPLViewController_iPad.xib; sourceTree = "<group>"; };
+		F12D1D1B16F47B9F00D3138C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		F12D1CFC16F4772900D3138C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F12D1D1B16F47B9F00D3138C /* .gitignore */,
 				F12D1CFD16F4772900D3138C /* cursogit-Info.plist */,
 				F12D1CFE16F4772900D3138C /* InfoPlist.strings */,
 				F12D1D0116F4772900D3138C /* main.m */,
@@ -168,6 +171,7 @@
 				F12D1D0C16F4772A00D3138C /* Default-568h@2x.png in Resources */,
 				F12D1D1216F4772A00D3138C /* DPLViewController_iPhone.xib in Resources */,
 				F12D1D1516F4772A00D3138C /* DPLViewController_iPad.xib in Resources */,
+				F12D1D1C16F47B9F00D3138C /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

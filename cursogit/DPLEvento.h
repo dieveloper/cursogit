@@ -11,5 +11,6 @@
 @interface DPLEvento : NSObject
 
 @property (nonatomic, strong) NSDate *fecha;
+@property (nonatomic, strong) NSString *nombre;
 
 @end

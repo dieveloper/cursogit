@@ -23,6 +23,7 @@
 		F12D1D2316F486A500D3138C /* DPLAlumno.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D1D2216F486A500D3138C /* DPLAlumno.m */; };
 		F12D1D2616F48B1D00D3138C /* DPLEvento.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D1D2516F48B1D00D3138C /* DPLEvento.m */; };
 		F12D1D2916F4BA0400D3138C /* DPLEventoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D1D2816F4BA0400D3138C /* DPLEventoViewController.m */; };
+		F12D1D2B16F4C01400D3138C /* DPLEventoViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12D1D2A16F4C01400D3138C /* DPLEventoViewController_iPhone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		F12D1D2516F48B1D00D3138C /* DPLEvento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPLEvento.m; path = cursogit/DPLEvento.m; sourceTree = "<group>"; };
 		F12D1D2716F4BA0400D3138C /* DPLEventoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLEventoViewController.h; sourceTree = "<group>"; };
 		F12D1D2816F4BA0400D3138C /* DPLEventoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLEventoViewController.m; sourceTree = "<group>"; };
+		F12D1D2A16F4C01400D3138C /* DPLEventoViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPLEventoViewController_iPhone.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F12D1CFC16F4772900D3138C /* Supporting Files */,
 				F12D1D2716F4BA0400D3138C /* DPLEventoViewController.h */,
 				F12D1D2816F4BA0400D3138C /* DPLEventoViewController.m */,
+				F12D1D2A16F4C01400D3138C /* DPLEventoViewController_iPhone.xib */,
 			);
 			path = cursogit;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				F12D1D1216F4772A00D3138C /* DPLViewController_iPhone.xib in Resources */,
 				F12D1D1516F4772A00D3138C /* DPLViewController_iPad.xib in Resources */,
 				F12D1D1C16F47B9F00D3138C /* .gitignore in Resources */,
+				F12D1D2B16F4C01400D3138C /* DPLEventoViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +347,7 @@
 				F12D1D1A16F4772A00D3138C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

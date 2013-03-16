@@ -11,6 +11,8 @@
 @interface DPLAlumno : NSObject
 
 @property (nonatomic, strong)   NSString *nombre;
+@property (nonatomic, strong)   NSString *apellidos;
+@property (nonatomic, strong)   NSString *telefono;
 @property (nonatomic, assign)   BOOL esRegistered;
 
 @end

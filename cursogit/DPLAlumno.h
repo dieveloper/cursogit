@@ -15,5 +15,6 @@
 @property (nonatomic, strong)   NSNumber *telefono;
 @property (nonatomic, strong)   NSString *direccion;
 @property (nonatomic, assign)   BOOL esRegistered;
+@property (nonatomic, assign)   BOOL email;
 
 @end

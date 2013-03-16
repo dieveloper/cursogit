@@ -13,6 +13,7 @@
 @property (nonatomic, strong)   NSString *nombre;
 @property (nonatomic, strong)   NSString *apellidos;
 @property (nonatomic, strong)   NSString *telefono;
+@property (nonatomic, strong)   NSString *direccion;
 @property (nonatomic, assign)   BOOL esRegistered;
 
 @end

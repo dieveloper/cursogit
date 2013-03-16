@@ -20,6 +20,7 @@
 		F12D1D1216F4772A00D3138C /* DPLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12D1D1016F4772A00D3138C /* DPLViewController_iPhone.xib */; };
 		F12D1D1516F4772A00D3138C /* DPLViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12D1D1316F4772A00D3138C /* DPLViewController_iPad.xib */; };
 		F12D1D1C16F47B9F00D3138C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F12D1D1B16F47B9F00D3138C /* .gitignore */; };
+		F12D1D2316F486A500D3138C /* DPLAlumno.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D1D2216F486A500D3138C /* DPLAlumno.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		F12D1D1116F4772A00D3138C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DPLViewController_iPhone.xib; sourceTree = "<group>"; };
 		F12D1D1416F4772A00D3138C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DPLViewController_iPad.xib; sourceTree = "<group>"; };
 		F12D1D1B16F47B9F00D3138C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		F12D1D2116F486A500D3138C /* DPLAlumno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPLAlumno.h; path = cursogit/DPLAlumno.h; sourceTree = "<group>"; };
+		F12D1D2216F486A500D3138C /* DPLAlumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPLAlumno.m; path = cursogit/DPLAlumno.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		F12D1CE916F4772900D3138C = {
 			isa = PBXGroup;
 			children = (
+				F12D1D1D16F4865600D3138C /* Model */,
 				F12D1CFB16F4772900D3138C /* cursogit */,
 				F12D1CF416F4772900D3138C /* Frameworks */,
 				F12D1CF316F4772900D3138C /* Products */,
@@ -111,6 +115,15 @@
 				F12D1D0B16F4772A00D3138C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F12D1D1D16F4865600D3138C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F12D1D2116F486A500D3138C /* DPLAlumno.h */,
+				F12D1D2216F486A500D3138C /* DPLAlumno.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +198,7 @@
 				F12D1D0216F4772900D3138C /* main.m in Sources */,
 				F12D1D0616F4772900D3138C /* DPLAppDelegate.m in Sources */,
 				F12D1D0F16F4772A00D3138C /* DPLViewController.m in Sources */,
+				F12D1D2316F486A500D3138C /* DPLAlumno.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

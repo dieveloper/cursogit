@@ -13,4 +13,6 @@
 
 @property (nonatomic, strong) DPLEvento *evento;
 
+@property (nonatomic, strong) NSURL *url;
+
 @end

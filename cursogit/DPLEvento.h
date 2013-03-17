@@ -13,5 +13,7 @@
 @property (nonatomic, strong) NSDate *fecha;
 @property (nonatomic, strong) NSString *nombre;
 @property (nonatomic, strong) NSString *hora;
+@property (nonatomic, strong) NSString *descripcion;
+@property (nonatomic, strong) NSSet *invitados;
 
 @end
